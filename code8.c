@@ -2,18 +2,17 @@
 int main()
 {
 int n;
-printf("enter the value of n:");
+printf("enter the value n:");
 scanf("%d",&n);
 
-if(n%2==0)
+if(n%5==0)
 {
-printf("this is a even number");
-
+printf("this is divisible by 5");
 }
-  else
-  {
-    printf("this is a odd number");
 
-  }
+else
+{
+printf("this is not divisible by 5");
+}
 return 0;
 }
