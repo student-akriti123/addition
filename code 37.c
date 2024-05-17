@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-printf("I am two nervous");
+printf("I am to nervous");
 
 return 0;
 }
